@@ -72,7 +72,7 @@ import jieba # cutting Chinese sentences into words
 ```py
 # setting paths
 fname_text = 'texts/article.txt'
-fname_stop = 'texts/hit_stopwords.txt'
+fname_stop = 'stopwords/hit_stopwords.txt'
 fname_mask = 'pictures/owl.jpeg'
 fname_font = 'SourceHanSerifK-Light.otf'
 ```
@@ -244,7 +244,7 @@ def count_frequencies(word_list):
 if __name__ == '__main__':
     # setting paths
     fname_text = 'texts/article.txt'
-    fname_stop = 'texts/hit_stopwords.txt'
+    fname_stop = 'stopwords/hit_stopwords.txt'
     fname_mask = 'pictures/owl.jpeg'
     fname_font = 'SourceHanSerifK-Light.otf'
     
